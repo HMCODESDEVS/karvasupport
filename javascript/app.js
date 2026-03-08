@@ -1,12 +1,16 @@
+// Funciones para redirigir.
+
 function webextraña(){
-    window.location.href = "https://karvasupport.netlify.app/supportservice/webextraña"
+    window.location.href = "/supportservice/webextraña"
 }
 function nosaleurl(){
-    window.location.href = "https://karvasupport.netlify.app/supportservice/nosaleurl"
+    window.location.href = "/supportservice/nosaleurl"
 }
 function descarga(){
-    window.location.href = "https://karvasupport.netlify.app/supportservice/descarga"
+    window.location.href = "/supportservice/descarga"
 }
 function nomeseguiar(){
-    window.location.href = "https://karvasupport.netlify.app/supportservice/nomeseguiar"
+    window.location.href = "/supportservice/nomeseguiar"
 }
+
+// Fin del código
