@@ -1,0 +1,134 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.asistencia-monigote {
+    background-color: #2c3e50;
+    color: white;
+    text-align: right;
+    padding: 5px 20px;
+    font-size: 0.85rem;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h2 {
+    margin: 0;
+    color: #0078d4;
+    font-size: 2.5rem;
+}
+
+header bold {
+    display: block;
+    margin-top: 10px;
+    color: #606770;
+}
+
+.support {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.support h3 {
+    border-bottom: 2px solid #0078d4;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.type-section {
+    font-weight: bold;
+    color: #4b4f56;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+button {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ccd0d5;
+    color: #1c1e21;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #f5f6f7;
+    border-color: #0078d4;
+    color: #0078d4;
+}
+
+footer {
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer>p {
+    text-align: center;
+    font-weight: bold;
+    color: #606770;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.title-links h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #1c1e21;
+}
+
+.link-links a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.link-links a:hover {
+    text-decoration: underline;
+}
+
+.link-links p {
+    margin: 0;
+    color: #606770;
+}
+
+@media (max-width: 600px) {
+    .links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title-links {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question,
+.answer,
+.explicaciones {
+    background: #fff;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question h2 {
+    color: #2c3e50;
+    margin-top: 0;
+    border-left: 5px solid #3498db;
+    padding-left: 15px;
+}
+
+.answer {
+    border-left: 5px solid #2ecc71;
+}
+
+.explicaciones {
+    background-color: #ebf5fb;
+    border: 1px dashed #3498db;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
